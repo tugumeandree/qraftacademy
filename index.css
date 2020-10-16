@@ -1,0 +1,54 @@
+.icon {
+    background-color: rgb(12, 158, 199);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 7px;
+  }
+  
+  .card-action{
+      height: 50px;
+  }
+  
+  .fixed-action-btn {
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 10px;
+    z-index: 998;
+    display: inline-block;
+  }
+  .premium{
+    border: 1px solid gray;
+  }
+  .premium .ico{
+      content: '';
+      display: block;
+      height: 19px;  /*height of icon */
+      width: 89px;  /*width of icon */
+      position: absolute;
+      display: inline-block;
+        /*where to replace the icon */
+      top: 10px;
+      right: -4px;
+        /*background */
+      background: #F8E6AE url(https://s19.postimg.org/t2syzd5mr/39795885-luxury-premium-quality-golden-labels-co.jpg) no-repeat 0px 0px;
+  }
+  .premium .icostar:after{
+      content: '\f005';
+      font-family: FontAwesome;
+      border: 1px solid black;
+      font-size: 25px;
+      padding: 6px;
+      color: yellow;
+      width: 35px;  
+      position: absolute;
+      display: inline-block;
+        /*where to replace the icon */
+      top: -1px;
+      right: -1px;
+        /*background */
+      background: black no-repeat 0px 0px;
+  }
