@@ -119,9 +119,7 @@ nav ul>li>a, nav .brand-logo  {
   color: #fff;
 }
 
-nav .brand-logo {
-  font-size: 1.4em !important;
-}
+
 
 #container {
   padding: 20px 10px;
@@ -5554,36 +5552,11 @@ nav {
     nav .button-collapse i {
       height: 56px;
       line-height: 56px; }
-  nav .brand-logo {
-    position: absolute;
-    color: #fff;
-    display: inline-block;
-    font-size: 2.1rem;
-    padding: 0;
-    white-space: nowrap; }
-    nav .brand-logo.center {
-      left: 50%;
-      transform: translateX(-50%); }
+ 
+    
     @media only screen and (max-width: 992px) {
-      nav .brand-logo {
-        left: 50%;
-        transform: translateX(-50%); }
-        nav .brand-logo.left, nav .brand-logo.right {
-          padding: 0;
-          transform: none; }
-        nav .brand-logo.left {
-          left: 0.5rem; }
-        nav .brand-logo.right {
-          right: 0.5rem;
-          left: auto; } }
-    nav .brand-logo.right {
-      right: 0.5rem;
-      padding: 0; }
-    nav .brand-logo i,
-    nav .brand-logo [class^="mdi-"], nav .brand-logo [class*="mdi-"],
-    nav .brand-logo i.material-icons {
-      float: left;
-      margin-right: 15px; }
+  
+
   nav .nav-title {
     display: inline-block;
     font-size: 32px;
