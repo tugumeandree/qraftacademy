@@ -31,6 +31,7 @@
   <div class="navbar-fixed">
   <nav>
       <div class="nav-wrapper  black">
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <a href="index.html" class="brand-logo"><img class="logo" src="https://res.cloudinary.com/dwa3soopc/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1618146791/qraft%20/Artboard_4_mpr4mh.png" alt="logo"></a>
         <div class="container">
             <ul id="nav-mobile" class="hide-on-med-and-down">
@@ -45,6 +46,17 @@
       </div>
     </nav>
 </div>		
+
+<ul id="slide-out" class="sidenav">
+  <li><div class="user-view">
+   
+    <li><a href="apply.html">Apply</a></li>
+    <li><a href="curriculum.html">Curriculum</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">contact</a></li>
+  </div></li>
+
+</ul>
 
 
 <div class="container">
@@ -214,6 +226,8 @@
   
   $(document).ready(function(){
     $('.modal').modal();
+    $('.sidenav').sidenav();
+    
   });
          
 </script>
